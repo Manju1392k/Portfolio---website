@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+.logo img {
+    height: 4rem;
+    border-radius: 4px;
+}
+
+.links a {
+    color: #000;
+    margin-left: 1rem;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 2px solid #000;
+}
+
+.textorange {
+    color: orange;
+    font-weight: bold;
+}
+
+.bluetext {
+    color: blue;
+    font-weight: bold;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+    width: 100vw;
+}
+
+.person {
+    height: 14rem;
+}
+
+.martop {
+    margin-top: 2rem;
+}
+
+.myskills {
+    width: 100vw;
+    height: 20rem;
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mycontactlinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 20rem;
+    border-top: 2px solid #000;
+}
+
+.iconslinks {
+    width: 45vw;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45vw;
+    cursor: pointer;
+}
+
+.textinfo {
+    width: 45vw;
+    height: 18rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    border-top: 2px solid #000;
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phonenavbar {
+    display: none;
+}
+
+.phonelogo {
+    display: none;
+}
+
+.phonelinks {
+    display: none;
+}
+
+/* media quries for responsive  */
+
+@media screen and (max-width: 1030px) {
+    .navbar {
+        display: none;
+    }
+
+    .phonenavbar {
+        display: flex;
+        width: 100vw;
+        height: 3rem;
+        border-bottom: 2px solid #000;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .phonelogo {
+        display: flex;
+        height: 2rem;
+    }
+
+    .mainbox {
+        flex-direction: column;
+    }
+
+    .textbox {
+        margin-top: 2rem;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        height: 30rem;
+    }
+
+    .mycontactlinks {
+        flex-direction: column;
+        height: 30rem;
+    }
+
+    .textinfo, .flex {
+        width: 100vw;
+    }
+
+    .imagebox img {
+        width: 100vw;
+    }
+
+    .footer h3 {
+        text-align: center;
+    }
+
+    .textabout {
+        text-align: center;
+    }
+
+    .phonelinks {
+        position: fixed;
+        width: 0vw;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        overflow: hidden;
+        transition: all;
+    }
+
+    .phonelinks a {
+        color: #fff;
+    }
+
+    #marginleft {
+        margin-left: 70vw;
+    }
+}
