@@ -129,7 +129,7 @@ body {
     display: none;
 }
 
-/* media quries for responsive  */
+/* media quries for responsive design */
 
 @media screen and (max-width: 1030px) {
     .navbar {
@@ -156,6 +156,7 @@ body {
 
     .textbox {
         margin-top: 2rem;
+        text-align: center;
     }
 
     .aboutme {
@@ -170,18 +171,6 @@ body {
 
     .textinfo, .flex {
         width: 100vw;
-    }
-
-    .imagebox img {
-        width: 100vw;
-    }
-
-    .footer h3 {
-        text-align: center;
-    }
-
-    .textabout {
-        text-align: center;
     }
 
     .phonelinks {
@@ -203,5 +192,9 @@ body {
 
     #marginleft {
         margin-left: 70vw;
+    }
+
+    .footer h3, h2 {
+        text-align: center;
     }
 }
