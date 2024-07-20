@@ -4,21 +4,6 @@ Portfolio Website
 
 ---
 
-# _Watch Full Video in YouTube Channel_
-
-## Channel Name: _SM CTR_
-
-### 👇 Click this button for Full Video
-
-
-<a href="https://www.youtube.com/watch?v=AMBxJNA-vbo&list=PLdRwBWDSwQGxkTn-IIz9jW5G0ClH8ADp9">
-
-![youtube](https://user-images.githubusercontent.com/66934377/185027803-33520225-0da3-4eea-b6c1-86dbfc94fdd6.png)
-
-</a>
-
----
-
 # 🗂️ Languages is used in Projects
 
 This is Project is made with Pure (HTML,CSS,JAVASCRIPT). No Framework is used.
